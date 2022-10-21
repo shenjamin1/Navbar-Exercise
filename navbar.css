@@ -1,0 +1,42 @@
+@media screen and (min-width: 400px) {
+    #bigbox {
+        width: 350px;
+        height: 312px;
+        border: 2px solid black;
+        margin: auto;
+    }
+
+    #smallbox {
+        width: 350px;
+        height: 156px;
+        background-color: black;
+    }
+
+    .section {
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #bigbox {
+        width: 835px;
+        height: 40px;
+    }
+
+    #smallbox {
+        width: 835px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+
+    .section {
+        color: white;
+        padding-left: 20px;
+        margin-right: 15px;
+    }
+}
